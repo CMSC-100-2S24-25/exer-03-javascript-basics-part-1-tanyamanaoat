@@ -31,6 +31,7 @@ function reversePassword(password) {
     for (let i = password.length - 1; i >= 0; i--) {
         newPassword += password[i];
     }
+
     return newPassword;
 }
 
