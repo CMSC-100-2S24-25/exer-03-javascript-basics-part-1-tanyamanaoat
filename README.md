@@ -1,8 +1,8 @@
 # EXERCISE 03 - Javascript Basics Part 1
 
 ### Student Information:
-NAME: Tanya Marinelle G. Manaoat </br>
-STUDENT NUMBER: 2023-13828
+Name: Tanya Marinelle G. Manaoat </br>
+Student Number: 2023-13828
 
 ### Course:
 CMSC 100 - C1L
