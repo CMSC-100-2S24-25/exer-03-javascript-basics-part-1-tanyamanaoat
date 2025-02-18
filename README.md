@@ -1,7 +1,7 @@
 # EXERCISE 03 - Javascript Basics Part 1
 
 ### Student Information:
-NAME: Tanya Marinelle G. Manaoat
+NAME: Tanya Marinelle G. Manaoat </br>
 STUDENT NUMBER: 2023-13828
 
 ### Course:
