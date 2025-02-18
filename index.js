@@ -43,5 +43,10 @@ function storePassword(name, password1, password2) {
 }
 
 // Sample Input
+console.log("Matching passwords.. { helloworld, hello } Result: " +validatePassword("helloworld", "hello")); // returns false
+console.log("Matching passwords.. { hello, hello } Result: " +validatePassword("hello", "hello")); // returns false
+console.log("Matching passwords.. { hello1234, hello1234 } Result: " +validatePassword("hello1234", "hello1234")); // returns false
+console.log("Matching passwords.. { Hello1234, Hello1234 } Result: " +validatePassword("Hello1234", "Hello1234")); // returns true
+console.log("Matching passwords.. { HELLO1234, HELLO1234 } Result: " +validatePassword("HELLO1234", "HELLO1234")); // returns false
 console.log(storePassword("John", "Pass1234", "Pass1234")); // returns {name: "John", newpassword:"4321ssaP"}
 console.log(storePassword("John", "Pass123", "Pass12345")); // returns { name: "John", newpassword: "Pass123" }
